@@ -24,5 +24,4 @@ public class Boletin7_1 {
         System.out.println(obxLibro.toString());
         
     }
-    
 }

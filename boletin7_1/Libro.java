@@ -77,10 +77,7 @@ public class Libro {
     }
     
     // Método devolución
-    
-    
-    // Método toString
-    public boolean devolucion(){
+        public boolean devolucion(){
         if(this.numExemplaresPrestados>0){
             numExemplaresPrestados += 1;
             numExemplaresPrestados -= 1;
@@ -90,6 +87,9 @@ public class Libro {
             return false;
         }
     }
+    
+    // Método toString
+
     @Override
     public String toString(){
         return "Título: " + titulo + "\nAutor del libro: " + autor + "\nNúmero de exemplares: " + numExemplares + "\nNúmero de exemplares prestados: " + numExemplaresPrestados;
